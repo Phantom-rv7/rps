@@ -1,0 +1,104 @@
+*,
+::after,
+::before{
+  box-sizing: border-box;
+}
+html{
+  margin: 0%;
+  padding:0% ;
+  font-family: sans-serif;
+  
+}
+body{
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  width: calc(100% - 2rem);
+  border: 2px solid orange;
+}
+h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+img{
+  height: 3.5rem;
+  /* background-color: transparent; */
+}
+.reset-btn,
+.autobtn{
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 1em;
+}
+
+button{
+  background-color: transparent;
+  border: 3px solid
+  white;
+  border-radius: 70%;
+  padding: 2rem;
+  /* display: flex;
+  flex-direction: column; */
+  /* margin-right: 45px; */
+  cursor: pointer;
+  
+}
+.js-result{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.js-moves{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.moves{
+  width: 3rem;
+  height: 3rem;
+}
+.js-score{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.btn-contain{
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  
+}
+.contain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* display: grid;
+  place-content: center; */
+}
+
+h1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:500px){
+  h1{
+    font-size: 2rem;
+    flex-wrap: nowrap;
+    max-width: 100%;
+
+  }
+  .btn-contain{
+    border: 2px solid lime;
+    width: calc(100% - 1rem);
+    gap: 2rem;
+  }
+  button{
+    border: 2px solid rgb(255, 0, 0);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
